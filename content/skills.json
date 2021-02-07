@@ -1,0 +1,66 @@
+{
+	"skills": [
+		{
+			"title": "Детали",
+			"type": "text",
+			"items": [
+				{
+					"name": "Телефон",
+					"value": "+375293775666"
+				},
+				{
+					"name": "Email",
+					"value": "lazari.dev@gmail.com"
+				}
+			]
+		},
+		{
+			"title": "Навыки",
+			"type": "percentage",
+			"items": [
+				{
+					"name": "PHP",
+					"value": 80
+				},
+				{
+					"name": "Symfony",
+					"value": 80
+				},
+				{
+					"name": "MySql",
+					"value": 60
+				},
+				{
+					"name": "Postgres",
+					"value": 80
+				},
+				{
+					"name": "Node JS",
+					"value": 60
+				},
+				{
+					"name": "Python",
+					"value": 80
+				},
+				{
+					"name": "OracleDB",
+					"value": 40
+				}
+			]
+		},
+		{
+			"title": "Языки",
+			"type": "percentage",
+			"items": [
+				{
+					"name": "Russian",
+					"value": 100
+				},
+				{
+					"name": "English",
+					"value": 60
+				}
+			]
+		}
+	]
+}

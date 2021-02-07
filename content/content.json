@@ -1,0 +1,47 @@
+{
+	"content": [
+		{
+			"title": "Трудовая деятельность",
+			"items": [
+				{
+					"title": "Web Developer, Автогир бай",
+					"location": "",
+					"dateStart": "2018-07-01",
+					"dateEnd": "2019-06-01",
+					"textContent": "<p>Разработка системы учета и продаж Б/У автозапчастей</p> </br> <p>Технологии:</p> <br> <p>PHP7, Symfony 4, MySql, ElasticSearch, Python (микросервисы)</p> <br> <p>Команда из 3ех человек.</p>"
+				},
+				{
+					"title": "Backend Web Developer, Фриланс",
+					"location": "",
+					"dateStart": "2019-09-01",
+					"dateEnd": "2020-06-01",
+					"textContent": "<p>Разработка системы учета и продаж Б/У автозапчастей</p> </br> <p>Технологии:</p> <br> <p>PHP7, Symfony 4, MySql, ElasticSearch, Python (микросервисы)</p> <br> <p>Команда из 3ех человек.</p>"
+				},
+				{
+					"title": "PHP Beckend Developer, ООО 'Итертех PHP Beckend'",
+					"location": "Минск",
+					"dateStart": "2020-08-01",
+					"dateEnd": "",
+					"textContent": "<p>Разработка системы учета и продаж Б/У автозапчастей</p> </br> <p>Технологии:</p> <br> <p>PHP7, Symfony 4, MySql, ElasticSearch, Python (микросервисы)</p> <br> <p>Команда из 3ех человек.</p>"
+				}
+			]
+		},
+		{
+			"title": "Прочая деятельность",
+			"items": [
+				{
+					"title": "Торговая площадка",
+					"dateStart": "2018-02-01",
+					"dateEnd": "2018-03-01",
+					"textContent": "<p>Торговая площадка на базе Telegram Bot API для продажи услуг.</p> </br> <p>Python, Postgres, Flask</p>"
+				},
+				{
+					"title": "Сайт туристических услуг",
+					"dateStart": "2017-01-01",
+					"dateEnd": "2020-02-01",
+					"textContent": "<p>Проектирование и разработка просто CRUD приложения для турагенства.</p> </br> <p>Python, Django</p>"
+				}
+			]
+		}
+	]
+}
