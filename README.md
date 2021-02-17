@@ -1,3 +1,4 @@
+[![Build Status](https://jenkins.0x00.digital/job/cv/badge/icon)](https://jenkins.0x00.digital/job/cv/)
 # nuxt-cv
 
 ## Build Setup
@@ -18,4 +19,3 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-1111
