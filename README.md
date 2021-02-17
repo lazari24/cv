@@ -1,4 +1,4 @@
-[![Build Status](https://jenkins.0x00.digital/job/cv/badge/icon)](https://jenkins.0x00.digital/job/cv/)
+[![Build Status](https://jenkins.0x00.digital/buildStatus/icon?job=cv)](https://jenkins.0x00.digital/job/cv/)
 # nuxt-cv
 
 ## Build Setup
