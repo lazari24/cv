@@ -1,5 +1,4 @@
 ![Build Status](https://jenkins.0x00.digital/buildStatus/icon?job=cv)
-# nuxt-cv
 
 ## Build Setup
 
