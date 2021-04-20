@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-cv-node
+spec:
+  selector:
+    matchLabels:
+      app: my-cv-node
+  template:
+    metadata:
+      labels:
+        app: my-cv-node
+    spec:
+      containers:
+        - name: lazari-cv
+          image: registry.digitalocean.com/lazari/lazari-cv:v1
+          ports:
+            - containerPort: 3000
+          readinessProbe:
+            httpGet:
+              port: 3000
+              path: /
+              scheme: HTTP
+            initialDelaySeconds: 2
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 10
+  replicas: 1
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: my-cv-node
+spec:
+  selector:
+    app: my-cv-node
+  ports:
+    - port: 3000
+      targetPort: 3000
+      protocol: TCP
+  type: ClusterIP
